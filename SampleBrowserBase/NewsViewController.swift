@@ -26,7 +26,7 @@ class NewsViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         reloadListDatas()
         
-        self.navigationItem.title = "最新記事"
+        self.navigationItem.title = "最新記事一覧"
         
         if #available(iOS 11, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
